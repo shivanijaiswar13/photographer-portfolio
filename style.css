@@ -51,7 +51,7 @@ body{
     width: 0px;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s  infinite alternate;
+    animation: typing 5s  infinite alternate linear;
 }
 @keyframes typing{
     0%{
@@ -95,6 +95,10 @@ body{
     background-color: #ccc;
     cursor: pointer;
     border-radius: 50%;
-
-
 }
+section{
+    width: 100%;
+    max-width: 1600px;
+    padding: 6%;
+}
+
