@@ -30,12 +30,29 @@ body{
 }
 .title,.subtitle{
     color: #fff;
+    text-transform: uppercase;
 
+}
+.title{
+    font-size: 66px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 4px;
+}.title .strong{
+    letter-spacing: 8px;
+    
+}
 
+.subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    color: #aaa;
+    letter-spacing: 3px;
 }
 .social{
     display: flex;
     gap: 1rem;
+    padding: 2rem 0rem;
 }
 .social .social-link{
     width: 50px;
